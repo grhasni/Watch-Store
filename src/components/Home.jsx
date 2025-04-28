@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -19,12 +20,12 @@ function Home() {
             beautiful attractive watches for proper use by measuring this time.
           </p>
           <div className="flex-row gap-2">
-            <a href="shopnow.html" className="btn m-2 yellow-bg btn-primary">
+            <Link to="/shopnow" className="btn m-2 yellow-bg btn-primary">
               Shop Now
-            </a>
-            <a href="contact.html" className="btn m-2 yellow-bg btn-primary">
+            </Link>
+            <Link to="/contact" className="btn m-2 yellow-bg btn-primary">
               Contact Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>
